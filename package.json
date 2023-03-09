@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "aos": "^3.0.0-beta.6",
+    "react-elastic-carousel": "^0.11.5",
+    "react-multi-carousel": "^2.8.2",
+    "react-slick": "^0.29.0"
+  }
+}
