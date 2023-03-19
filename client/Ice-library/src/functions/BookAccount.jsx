@@ -376,7 +376,6 @@ const BooksState = (props) => {
     });
     const data = await res.json();
     setuser(data);
-    console.log(user)
   };
   return (
     <BooksContext.Provider

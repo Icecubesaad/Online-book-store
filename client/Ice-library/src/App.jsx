@@ -19,12 +19,10 @@ function App() {
   const [style, setstyle] = useState({display:"none",transform:"translateX(-100%)"});
   const open=()=>{
     setsidebar((pr)=>!pr)
-    console.log(sidebar)
     setstyle({display:"flex",transform:"translateX(0%)"})
   }
   const close =()=>{
     setsidebar((pr)=>!pr)
-    console.log("SKL")
   }
   return (
     <>
