@@ -2,7 +2,7 @@ import React, { useContext, useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import BooksContext from "../functions/Context";
 import Loggedin from "./buttons/Loggedin";
-import NotLoggedIn from "./buttons/notLoggedIn";
+import NotLoggedIn from "./buttons/NotLoggedIn";
 export default function Navbar(props) {
   const context = useContext(BooksContext);
   const { loggedhehe,width } = context;
